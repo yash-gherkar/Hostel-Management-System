@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+<head>
+<meta charset="UTF-8">
+<meta name="visitor page" content="Our page">
+<meta name="Hotstel finding site" content="HTML, CSS, JavaScript">
+<meta name="author" content="Yash Gherkar">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<body style="background-color:rgb(255, 179, 217);">
+<header style="float:left">
+  <a href="HMS.html" title="Back to Home Page">
+   <img src = "CSS-files/Images/back.png" style="height:80px;width:70px" alt="Back to Home page">
+  </a>
+</header>
+<br>
+<br>
+<br>
+<form action="/action_page.php" target="_self" method="post" autocomplete="on">
+
+<h2 style="text-align:center;color:rgb(153, 0, 77);font-family:courier;">Enter Details</h2>
+<fieldset>
+    <legend style="color:rgb(102, 0, 51);font-family:courier;font-size:150%"> Visitor's Form : &nbsp </legend><br><br>
+
+<label style="color:grey;font-family:courier;font-size:100%" for="fname">First Name : </label>
+<input style="color:grey;font-family:courier;font-size:100%"type="text" id="fname" name="fname" required><br><br>
+
+<label style="color:grey;font-family:courier;font-size:100%" for="lname">Last  Name : </label>
+<input style="color:grey;font-family:courier;font-size:100%"type="text" id="lname" name="lname" required><br><br>
+
+
+
+<label style="color:grey;font-family:courier;font-size:100%" for="gender">Gender : </label><br>
+  <input style="color:grey;font-family:courier;font-size:100%" type="radio" id="male" name="gender" value="male">
+  <label style="color:grey;font-family:courier;font-size:100%" for="male">Male</label><br>
+  <input style="color:grey;font-family:courier;font-size:100%" type="radio" id="female" name="gender" value="female">
+  <label style="color:grey;font-family:courier;font-size:100%" for="female">Female</label><br>
+  <input style="color:grey;font-family:courier;font-size:100%" type="radio" id="other" name="gender" value="other">
+  <label style="color:grey;font-family:courier;font-size:100%"for="other">Other</label><br><br>
+
+
+<label style="color:grey;font-family:courier;font-size:100%" for="age">Enter Age : </label>
+  <input style="color:grey;font-family:courier;font-size:100%" type="number" id="age" name="age" required><br><br>
+
+
+<label style="color:grey;font-family:courier;font-size:100%" for="nationality">Nationality : </label>
+   <select style="color:grey;font-family:courier;font-size:100%" id="nationality" name="nationality">
+     <option style="color:grey;font-family:courier;font-size:100%" value="Indian">Indian</option>
+     <option style="color:grey;font-family:courier;font-size:100%" value="GulfIndian">from Gulf States</option>
+     <option style="color:grey;font-family:courier;font-size:100%" value="NRIA">From Americas</option>
+     <option style="color:grey;font-family:courier;font-size:100%" value="NRI">Other than Americas</option>
+     <option style="color:grey;font-family:courier;font-size:100%" value="Non-Indian">Not an Indian</option>
+   </select><br><br>
+
+<label style="color:grey;font-family:courier;font-size:100%" for="mobileno">Enter your phone number : </label>
+  <input style="color:grey;font-family:courier;font-size:100%" type="tel" id="mobileno" name="mobileno"  placeholder="6984657373" pattern="[6-9]{1}[0-9]{9}" required><br><br>
+
+
+<label style="color:grey;font-family:courier;font-size:100%" for="roomID">Allocated RoomId : </label>
+<input style="color:grey;font-family:courier;font-size:100%"type="text" id="roomID" name="roomID" required><br><br>
+
+<label style="color:grey;font-family:courier;font-size:100%" for="address">Enter your address : </label><br><br>
+<textarea style="color:grey;font-family:courier;font-size:100%" name="address" rows="10" cols="30" required>
+
+add address here.
+</textarea><br><br>
+
+<input style="color:grey;font-family:courier;font-size:100%" type="submit" value="Submit">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<input style="color:grey;font-family:courier;font-size:100%" type="reset">
+
+<br><br><br>
+</fieldset>
+</form>
+</body>
+</head>
+</html>

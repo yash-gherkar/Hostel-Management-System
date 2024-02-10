@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+<head>
+<meta charset="UTF-8">
+<meta name="aboutus page" content="Our page">
+<meta name="Hotstel finding site" content="HTML, CSS, JavaScript">
+<meta name="author" content="Yash Gherkar">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  
+}
+
+button {
+  background-color: rgb(153, 0, 153);
+  color: black;
+  font-family:courier;
+  font-size:20px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+</style>
+
+</head>
+<body style="background-color:rgb(255, 230, 255);">
+   <header style="float:left">
+      <a href="HMS.html" title="Back to Home Page">
+       <img src = "CSS-files/Images/back.png" style="height:80px;width:70px" alt="Back to Home page">
+      </a>
+   </header>
+<br><br><br><br>
+
+<form action="/action_page.php" target="_self" method="post" autocomplete="on">
+
+
+  <fieldset>
+    <legend style="color:rgb(77,0,77);font-family:courier;font-size:250%"><strong>Student Login</strong></legend><br><br>
+
+     <label style="width:100%;text-align:center;color:rgb(77, 0, 77);font-family:courier;font-size:160%" for="studentID">StudentID : </label>
+     <input style="color:grey;font-family:courier;font-size:160%"type="text" id="studentID" name="studentID" required><br><br>
+  
+     <label style="width:100%;text-align:center;color:rgb(77, 0, 77);font-family:courier;font-size:160%" for="studentpwd">Password : &nbsp;</label>
+     <input style="color:grey;font-family:courier;font-size:160%" type="password" id="studentpwd" name="studentpwd" required><br><br>
+     
+     <button type="submit">Login</button>
+   
+     <input type="reset" style = "color:rgb(77, 0, 77);font-family:courier;font-size:200%" type="reset">
+
+
+<br>
+<br>
+<br>
+
+
+
+
+</fieldset>
+</form>
+</body>
+</html>
